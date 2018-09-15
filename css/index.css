@@ -1,0 +1,359 @@
+/* 开头 */
+.tah1{
+    height: 28px;
+    line-height: 28px;
+    background-color:#f5f5f5;
+}
+
+.tah11 li {
+    float: left;
+}
+.tah11 a:hover {
+    color: #fa2a83;
+}
+
+/* 精灵图 */
+.box1 i {
+    display: inline-block;
+    height: 8px;
+    width: 10px;
+    background:url(../images/6j.png) -100px -199px;
+}
+.tah11 span {
+    margin: 0 15px;
+    color: #d4d4d4;
+}
+/* logo */
+.tah2{
+    height: 100px;
+    background-color: #fff;
+}
+.tah2 img{
+    height: 100px;
+    float: left;
+}
+.tah22 .t1{
+    background: url(../images/clipboard.png) 0 0;
+}
+.tah22 .t2{
+    background: url(../images/clipboard.png) -90px 0;
+}
+.tah22 .t3{
+    background: url(../images/clipboard.png) -180px 0;
+}
+#ipt{
+    margin-top: 33px;
+    margin-left: 148px;
+    height: 32px;
+    width: 396px;
+    color: #919191;
+    font-size: 14px;
+    border:1px solid #fa2a83;
+}
+/* 通栏 */
+.tah3{
+    background-color:#fa2a83;    
+}
+.tl li {
+    display: inline-block;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+}
+.tl a {
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+}
+.tl li:hover {
+    background-color: #bd1067;
+}
+.tl1 i{
+    display: inline-block;
+    margin-left: 5px;
+    height: 8px;
+    width: 10px;
+    background:url(../images/6j.png) -100px -199px;
+}
+.tah33 {
+    height: 360px;
+    /* background-color: #deb0b0; */
+}
+ .tah33 img{
+     width: 100%;
+     /* height: 360px; */
+ }
+ /* 轮播图 */
+ .slider {
+     /* height: 500px; */
+    margin: 0 auto;
+    position: relative;
+  }
+  .slider li {
+    position: absolute;
+    display: none;
+  }
+  .slider li a{
+      display: block;
+      float: left;
+  }
+  .slider li:first-child {
+    display: block;
+  }
+  
+  .arrow {
+    display: none;
+  }
+  
+  .slider:hover .arrow {
+    display: block;
+  }
+  .arrow-left {
+    font-family: "SimSun", "宋体"; 
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    margin-top: 120px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .arrow-right {
+    font-family: "SimSun", "宋体";
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    margin-top: 120px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .arrow-left:hover {
+    background-color: rgba(0, 0, 0, .5);
+  }
+  .arrow-right:hover {
+    background-color: rgba(0, 0, 0, .5);
+  }
+  
+  .arrow-left {
+    left: 0;
+  }
+  
+  .arrow-right {
+    right: 0;
+  }
+ /* 产品 */
+
+ .tah4 {
+
+     background-color: #fff;
+ }
+.tah4 .zi {
+    height: 106px;
+   line-height: 106px;
+   color: #333;
+   font-size: 28px;
+}
+.wrapper{
+    /* width : 1166px; */
+    height: 303px;
+    border: 1px solid #ccc;
+}
+.wrapper .tab{
+    float: left;
+    width: 193px;
+}
+.wrapper .tab li{
+    height: 60px;
+    width: 193px;
+    line-height: 61px;
+    text-align: center;
+    margin-bottom: 1px;
+    background-color: #f4f4f4;  
+}
+.wrapper a {
+    font-size: 16px;    
+    
+}
+.wrapper li:hover{
+    background-color: #fff;
+}
+.tah4 .zii {
+    height: 106px;
+   line-height: 106px;
+   color: #333;
+   font-size: 28px;
+}
+.products {
+    float: left;
+    width: 973px;
+    height:303px;
+    /* display: none; */
+    overflow: hidden;
+}
+
+/* 分类 */
+.tah5 {
+    height: 1660px;
+    background-color: rgb(255, 254, 254);
+}
+.tah55 {
+    height:332px;  
+}
+.tah55 fl img{
+    width: 570px;
+    height: 274px;
+    margin-right: 15px;
+}
+.tah55 fr img{
+    display: inline-block;
+    width: 570px;
+    height: 332px;
+    margin-left: 15px;
+}
+.tah55 p{
+    padding-top: 8px;
+}
+.tah55 i {
+    font-size: 18px;
+    color: #f10582;
+    font-weight: 700;
+    padding-left: 22px;
+}
+.tah55 span{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+/* 明日预告 */
+.tah6 {
+    height: 670px;
+    background-color: #fff;
+}
+.tah6 .zj {
+    line-height: 106px;
+    margin-left: 500px;
+    color: #333;
+    font-size: 28px;
+ }
+.tp img {
+    width: 289px;
+    margin-bottom: 3px;
+}
+
+/* 底部 */
+.footer {
+    background-color: #fcfcfc;
+}
+.tah7 {
+    height: 144px;
+    padding-top: 32px;
+    padding-left: 50px;
+}
+.ft1 {
+    background: url(../images/439355019680474867.png) 0 -1px;
+}
+.ft2 {
+    background: url(../images/439355019680474867.png) -81px 0;
+}
+.ft3 {
+    background: url(../images/439355019680474867.png) -162px 0;
+}
+.ft4 {
+    background: url(../images/439355019680474867.png) -242px 0;
+}
+.ft5 {
+    background: url(../images/439355019680474867.png) -320px 0;
+}
+.ft6 {
+    background: url(../images/439355019680474867.png) -400px 0;
+}
+.ft7 {
+    background: url(../images/439355019680474867.png) -480px 0;
+}
+.ft8 {
+    background: url(../images/439355019680474867.png) -560px 0;
+}
+.ft9 {
+    background: url(../images/439355019680474867.png) -640px 0;
+}
+.ft10 {
+    background: url(../images/439355019680474867.png) -720px 0;
+}
+
+.tah7 i {
+    margin-left: 40px;
+}
+.tah7lb{
+    height: 155px;
+    padding-left: 100px;
+    position:relative;
+}
+.tah7lb dl{
+    width: 160px;
+}
+.tah7lb dt{
+    font-weight: 700;
+    padding-bottom: 14px;
+}
+.tah7lb a {
+    color: #808080;
+    padding-left: 10px;
+}
+.tah7lb a:hover {
+    color: #f10582;
+}
+.dw {
+    position: absolute;
+    height: 3px;
+    width: 3px;
+    margin-top: 7px;
+    margin-left: 3px;
+    background-color: #6a6b6d;
+}
+.erweima {
+    display:inline-block;
+    height: 95px;
+    width: 95px;
+    background: url(../images/j7.png) -400px -100px;
+}
+.tah7lx {
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    background-color: #d7237e;
+}
+.tah7lx a {
+    color: #fff;    
+}
+.tah7p {
+    float: left;
+    height: 50px;
+    text-align: center;
+    padding-left: 200px;
+    margin: 20px 0;
+}
+.tah7p i {
+    display: inline-block;
+    height:15px ;
+    width: 16px;
+    background: url(../images/xtp.png) 0 0;
+}
+.js {
+    height: 50px;
+    text-align: center;
+}
+
+
+
